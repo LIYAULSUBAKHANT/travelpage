@@ -1,0 +1,125 @@
+ul li{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+    font-size: x-large;
+}
+button{
+    margin-left: 20%;
+    font-size:large;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/022/563/205/large_2x/soft-colorful-clouds-background-with-generative-ai-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 15%;
+}
+.words p{
+    margin-top: 50px;
+    font-size: 65px;
+    text-align: center;
+    color:black;
+    font-style: italic;
+}
+.book{
+    text-align: center;
+    margin-right: 350px;
+}
+.btn{
+    width:max-content;
+}
+button:hover{
+    background-color: rgb(244, 136, 154); ;
+
+}
+li{
+    margin-right: 20px;
+    
+}
+.box{
+    display:inline-block;
+    font-size: large;
+    border-style: solid;
+    width: 425px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 40px;
+
+}
+.top{
+    margin-bottom: 10px;
+    color:black;
+}
+.box img {
+   border-radius: 20px;
+   width:425px;
+   height:410px;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.contact{
+    text-align: center;
+}
+.con{
+    font-size: larger;
+}
+.further{
+    font-size:larger;
+}
+#layout1{
+    display:inline-block;
+    padding: 20px;
+    position:absolute;
+    top: 0;
+    left: 60%;
+    padding: 50px;
+    font-size: 30px;
+    z-index: 1;
+}
+#layout1 button{
+    margin: 0;
+    margin-left: 15px;
+}
+#layout1 a{
+    margin: 15px;
+    margin-right: 20px;
+}
+.para{
+    width: 1200px;
+    text-align:justify;
+    font-size: 35px;
+    position: absolute;
+    top: 0px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+}
+.para h1{
+    margin-bottom: 30px;
+}
+a:hover{
+    color: orangered;
+}
+.places{
+    display:contents;
+}
+@media only screen and (max-width: 1024px) {
+    body {
+        transform: scale(0.7); 
+        transform-origin: top left; 
+        width: 1440px; 
+        overflow-x: hidden; 
+    }
+}
+#layout1{
+        display: block;
+}
